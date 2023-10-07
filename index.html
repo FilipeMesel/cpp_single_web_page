@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfólio</title>
+    <style>
+        body {
+            background-color: #8B008B;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #FFF;
+        }
+
+        header {
+            background: rgba(139, 0, 139, 0.8);
+            text-align: center;
+            padding: 20px 0;
+            display: flex; /* Adicione flexbox para alinhar o nome e o e-mail */
+            justify-content: center;
+            align-items: center;
+            flex-direction: column; /* Empilhe elementos verticalmente */
+        }
+
+        header h1 {
+            font-size: 2em;
+            margin: 0; /* Remova a margem superior para o nome */
+        }
+
+        .contact-info {
+            display: flex;
+            margin-top: 10px;
+        }
+
+        .contact-info p {
+            margin: 0 10px;
+        }
+
+        main {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center; /* Centralize os cards horizontalmente */
+            align-items: center; /* Centralize os cards verticalmente */
+            padding: 20px;
+        }
+
+        .card {
+            background: rgba(255, 255, 255, 0.8); /* Fundo semitransparente branco para efeito de vidraçaria */
+            border-radius: 10px;
+            padding: 20px;
+            margin: 10px;
+            width: 45%;
+            text-align: center;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Sombra suave */
+            /* Adicione efeito de hover */
+            &:hover {
+                background: rgba(255, 255, 255, 0.9); /* Fundo semitransparente branco mais claro no hover */
+                color: black;
+            }
+        }
+
+        .card h2 {
+            font-size: 1.5em;
+        }
+
+    .paragrafo-mestrado-2 {
+        font-size: 18px;
+        margin-left: 15%;
+        margin-right: 20%;
+        margin-bottom: 10px;
+        border: 2px solid white;
+        border-radius: 10px;
+    }
+
+    .paragrafo-mestrado-2 h2{
+        margin-top: 30px;
+        margin-bottom: 30px;
+        
+    }
+
+        .paragrafo-mestrado {
+            font-size: 18px;
+            margin-left: 15%;
+            margin-right: 20%;
+            margin-bottom: 10px;
+            border: 2px solid white;
+            border-radius: 10px;
+        }
+
+        .paragrafo-mestrado h2{
+            margin-top: 30px;
+            margin-bottom: 30px;
+        }
+
+        a {
+            color: black;
+            background: white;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Filipe Mesel L. C. Cardoso</h1>
+        <div class="contact-info">
+            <p>Email: filipemesel96@gmail.com</p>
+            <p>Telefone: +55 (81) 99707-0628</p>
+        </div>
+    </header>
+    <main>
+        <div class="paragrafo-mestrado-2">
+            <h2 style="margin-right: 35%;">Árvore de busca balanceada</h2>
+            <P>
+                Uma Árvore de Busca Binária (BST - Binary Search Tree) é uma estrutura de dados em que cada nó tem no máximo dois filhos, 
+                um à esquerda e outro à direita. A característica fundamental de uma BST é que os valores armazenados em seus nós são 
+                organizados de forma que a busca seja eficiente. Os nós à esquerda de um nó contêm valores menores, e os nós à direita 
+                contêm valores maiores. O repositório pode
+                ser acessado clicando <a target="_blank" href="https://github.com/FilipeMesel/DIO_Formacao_cpp_desafio04">aqui!</a>
+            </P>
+        </div>
+        <div class="paragrafo-mestrado">
+            <h2 style="margin-left: 43%;">Medidor IoT com ESP 32 e ESP-IDF</h2>
+            <P>
+                Projeto consiste em um sistema completo composto por hardware elaborado com ESP 32, programado usando o ESP-IDF 
+                framework sdk se comunicando com um sistema elaborado com django via requisições HTTP.O repositório pode
+                ser acessado clicando <a target="_blank" href="https://github.com/FilipeMesel/Projeto_iot_medidor_temperatura">aqui!</a>
+            </P>
+        </div>
+        <div class="paragrafo-mestrado-2">
+            <h2 style="margin-right: 35%">Bootcamp ESP 32</h2>
+            <P>
+                Contempla todos os arquivos gerados para um curso que gostaria de ministrar sobre introdução a programação de sistemas ope
+                racionais de tempo real com ESP 32. O curso, cujas aulas e práticas eu elaborei, contempla o básico sobre FreeRTOS.
+                O repositório pode ser acessado clicando <a target="_blank" href="https://github.com/FilipeMesel/Bootcamp_Esp32">aqui!</a>
+            </P>
+        </div>
+        <div class="paragrafo-mestrado">
+            <h2  style="margin-left: 57%;">STM 32 com Display Oled</h2>
+            <P>
+                Projeto prático de uso do STM 32 em conjunto com um display Oled com o intúito de praticar organização de código
+                para sistemas embarcados.O repositório pode ser acessado clicando <a target="_blank" href="https://github.com/FilipeMesel/STM32-Oled-and-ADC-example">aqui!</a>
+            </P>
+        </div>
+        <!-- <div class="card fullstack">
+            <h2>Fullstack Projects</h2>
+        </div>
+        <div class="card embedded">
+            <h2>C++ Embedded Systems Projects</h2>
+        </div>
+        <div class="card mestrado">
+            <h2>Sobre Meu Mestrado</h2>
+        </div>
+        <div class="card python">
+            <h2>Python Projects</h2>
+        </div> -->
+    </main>
+</body>
+</html>
